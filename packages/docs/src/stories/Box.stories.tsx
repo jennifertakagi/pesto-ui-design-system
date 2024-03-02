@@ -1,15 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps } from '@pesto-ui/react'
+import { Box, BoxProps, Text } from '@pesto-ui/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: (
-      <>
-        <span>Tesing the element Box</span>
-      </>
-    ),
+    children: <Text>Testing Box component</Text>,
   },
 } as Meta<BoxProps>
 
