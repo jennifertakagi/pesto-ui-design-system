@@ -1,0 +1,3 @@
+{
+  "extends": "@pesto-ui/eslint-config"
+}
