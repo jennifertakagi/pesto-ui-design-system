@@ -1,12 +1,3 @@
-import { styled } from './styles'
+export * from './components/Button'
 
-const Button = styled('button', {
-  fontFamily: '$default',
-  backgroundColor: '$pesto500',
-  borderRadius: '$md',
-  padding: '$4',
-})
-
-export function App() {
-  return <Button>Hello World</Button>
-}
+export * from './styles'
