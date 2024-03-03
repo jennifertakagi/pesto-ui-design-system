@@ -8,7 +8,7 @@
     "changeset": "changeset",
     "clean": "rm -rf node_modules packages/**/node_modules dist packages/**/dist .turbo packages/**/.turbo && npm install",
     "dev": "turbo run dev --parallel",
-    "release": "turbo run build --filter=packages/docs && changeset publish",
+    "release": "turbo run build --filter=!docs && changeset publish",
     "version-packages": "changeset version"
   },
   "devDependencies": {
