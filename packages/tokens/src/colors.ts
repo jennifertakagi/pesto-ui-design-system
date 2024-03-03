@@ -12,6 +12,7 @@ export const colors = {
   gray900: '#121214',
 
   pesto300: '#00B37E',
+  pesto400: '#00876F',
   pesto500: '#00875F',
   pesto700: '#015F43',
   pesto900: '#00291D',
